@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">2050531200303_AppGK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lê Văn Tài</string>
+    <string name="nav_header_subtitle">levantaitinhtho@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="faceboook">Văn Tài Lê</string>
+    <string name="name">Lê Văn Tài</string>
+    <string name="email">levantaitinhtho@gmail.com</string>
+    <string name="phone">0386733025</string>
+    <string name="instagram">lvt_ttho</string>
+    <string name="address">Sơn Tịnh, Quảng Ngãi</string>
+    <string name="setting">Cài đặt</string>
+    <string name="user_image">người dùng</string>
+</resources>

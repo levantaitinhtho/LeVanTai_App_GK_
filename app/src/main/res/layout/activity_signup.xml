@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:id="@+id/forgot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:text="              SIGN UP"
+            android:textColor="#DD0F0F"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/su_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/botron"
+            android:hint="Tên đăng nhập, số điện thoại,..."
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="#db35db"
+            android:textColorHint="#F3E145"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/su_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/botron"
+            android:hint="Nhập mật khẩu đăng nhập"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="#db35db"
+            android:textColorHint="#F3E145"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/su_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/botron"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="#db35db"
+            android:textColorHint="#F3E145"
+            android:textSize="10pt" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="  Bắt đầu tạo mật khẩu ?"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/txt_singin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text=" Sign in"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <android.widget.Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="313dp"
+            android:background="@drawable/botron_button"
+            android:text="Sign up" />
+
+        <TextView
+            android:id="@+id/su_er"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/su_confirmpassword"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:textColor="#AC0B0B"
+            android:textSize="16dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
